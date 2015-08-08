@@ -702,20 +702,43 @@ body.outlook p {
     <style type="text/css">
 
       body, .body{
-        background-color: #2980B9
+        background-color: #2980B9;
+        font-family: roboto;
+        line-height: 150%;
+
       }
       .topBar{
         background-color:  #409ad5;
         color: white;
+        height: 30px;
+        padding-top: 20px;
         font-size: 250%;
-        line-height: 150%;
       }
       .imgStrong{
         margin-top: 5%; 
       }
       .imgIE{
-        margin-bottom: 20; margin:0;
+        margin-bottom: 20; 
+        margin:0;
+        border-bottom: 2px black;
       }
+      .bottomStuff, .topStuff{
+        font-size: 130%;
+        color: white;
+        line-height: 150%;
+        word-wrap: break-word;
+      }
+      .bottomStuff{
+        padding-top: 15%;
+      }
+      .topStuff{ 
+        font-style: italic;
+
+      }
+      .it{
+        font-weight: bold;
+        text-shadow: 1px 1px 1px black;
+        color: red;}
 
     </style>
   </head>
@@ -734,7 +757,7 @@ body.outlook p {
                       <table class="twelve columns">
                         <tr>
                           <td class="topBar">
-                            ConcertSteam, this is our nav bar. we're going to see if this works.
+                             ConcertSteam
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -754,7 +777,12 @@ body.outlook p {
                       <table class="eight columns">
                         <tr>
                           <td class="leftSide">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero repellat, doloribus facere sint aperiam laborum neque eveniet totam doloremque delectus. Reiciendis incidunt repudiandae obcaecati qui quidem, animi eligendi voluptates aspernatur.
+                            <p class="topStuff">
+                              "Did you make it out to Stubbs last night? Galactic played an extra set with Buddy Guy! They did nothing but funky versions of Taylor Swift songs! I can't believe you missed it!"
+                            </p>
+                            <p class="bottomStuff" style = "margin-top 20%;">
+                              We've all been there, figuratively. We've all missed "it". well with <span style = "font-size:155%; color:#409ad5; text-shadow:1px 1px 1px black;">ConcertSteam</span>, you don't have to miss it" ever again!!!
+                            </p>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -763,25 +791,32 @@ body.outlook p {
                     <td class="wrapper last">
                       <!--[if !mso]><!--><table class="four columns">
                         <tr>
-                          <td class="strongSide">
+                          <td class="strongSide center">
+                            <center>
                             <img src="http://i.imgur.com/YkLJy4j.png" style = "border-radius: 2em; width= 100%;" class = "imgStrong">
                             <img src="http://i.imgur.com/QXrZtq9.png" style = "border-radius: 2em; width= 100%;" class = "imgStrong">
                             <img src="http://i.imgur.com/zgIPFgE.png" style = " border-radius: 2em;width= 580px;" class = "imgStrong">
                             <img src="http://i.imgur.com/WrqRTGX.png" style = "border-radius: 2em; width= 100%;" class = "imgStrong">
+                          </center>
                           </td>
                         </tr>
                       </table>
                      <!--<![endif]-->
                       <!--[if gte mso 9]><table class="four columns" width="180">
                         <tr>
-                          <td class="strongSide" style = "line-height:30px">
-                            <img src="http://i.imgur.com/YkLJy4j.png" style = "border-radius: 2em; width= 100%; margin-top: 5%;" class = "imgIE" vspace = "10">
-                            <br />
-                            <img src="http://i.imgur.com/QXrZtq9.png" style = "border-radius: 2em; width= 100%; margin-top: 5%;" class = "imgIE">
-                            <br />
-                            <img src="http://i.imgur.com/zgIPFgE.png" style = " border-radius: 2em;width= 580px; margin-top: 5%;" class = "imgIE">
-                            <br />
-                            <img src="http://i.imgur.com/WrqRTGX.png" style = "border-radius: 2em; width= 100%; margin-top: 5%;" class = "imgIE">
+                          <td class="strongSide"  width: "180">
+                            <div>
+                            <img src="http://i.imgur.com/YkLJy4j.png" class = "imgIE" style = "border-bottom:2px black">
+                            </div>
+                            <div style = "margin-top: 10px">
+                            <img src="http://i.imgur.com/QXrZtq9.png" class = "imgIE" style = "margin-top: 250px">
+                            </div>
+                            <div style = "margin-top: 10px">
+                            <img src="http://i.imgur.com/zgIPFgE.png" class = "imgIE">
+                            </div>
+                            <div style = "margin-top: 10px">
+                            <img src="http://i.imgur.com/WrqRTGX.png" class = "imgIE">
+                            </div>
                           </td>
                         </tr>
                       </table>
