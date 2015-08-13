@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -587,15 +588,19 @@ body.outlook p {
     </style>
     <style type="text/css">
       body, .body{
-        background-color: #2980B9;
         font-family: roboto;
         line-height: 150%;
+      }
+      .contentStuff{
+        background-color: #2980B9;
+        width: 580px;
       }
       .topBar{
         background-color:  #409ad5;
         color: white;
-        height: 30px;
-        padding-top: 20px;
+        height: 60px;
+        padding-top: 30px;
+        padding-right: 10px;
         font-size: 250%;
       }
       .imgStrong{
@@ -622,7 +627,7 @@ body.outlook p {
         color: red;}
         .imgIE{
           margin-top: 20px;
-          border-radius: 2em;
+          
         }
         @media(max-width: 500px){
           .strongSide{
@@ -644,19 +649,19 @@ body.outlook p {
         }
     </style>
   </head>
-  <body>
-    <table class="body" width = "580">
+  <body style = "max-width: 580" width = "580">
+    <table class="body" width = "580" style = "max-width: 580;">
       <tr>
         <td class="center" align="center" valign="top">
           <center>
 
-          <table class="container">
+          <table class="container panel" style = "background-color: #409ad5">
             <tr>
-                    <td class="wrapper last">
+                    <td class="wrapper last panel" width = "580" style = "background-color: #409ad5">
                       <table class="twelve columns">
                         <tr>
-                          <td class="right-text-pad topBar " style="text-align:right; vertical-align:middle;" valign="middle">
-                             <span id="topBar">ConcertSteam</span>
+                          <td class = "" style="text-align:right; vertical-align:middle;" valign="middle" width = "580">
+                             <div class="topBar"> ConcertSteam</div>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -664,15 +669,15 @@ body.outlook p {
                     </td>
             </tr>
           </table>
-          <table class="container">
+          <table class="container panel" style = "background-color: #2980B9">
             <tr>
-              <td class="wrapper last">
+              <td class="wrapper last panel" style = "background-color: #2980B9">
                 <table class="twelve columns">
                   <tr>
-                    <td align="center">
+                    <td align="center" class = "text-pad">
                     <h1 class = "topLabel"> Welcome to ConcertSteam</h1>
                     <p class = "labelTop"> With ConcertStream , the Fillmore, Red Rocks, Budokan and Stubbs are never more than a click away! </p>
-                    <img  width="600"src="http://i.imgur.com/ogCzBhw.jpg"/>
+                    <img  width="580"src="http://i.imgur.com/ogCzBhw.jpg"/>
                     </td>
                     <td class="expander"></td>
                   </tr>
@@ -687,16 +692,23 @@ body.outlook p {
                     <td class="expander"></td>
                   </tr>
                 </table>
+                <table class="button">
+                              <tr>
+                                <td class = "text-pad">
+                                  <a href="#">Sign Up</a>
+                                </td>
+                              </tr>
+                </table>
               </td>
             </tr>
           </table>
-          <table class="container">
+          <table class="container panel" width = "580" style = " width: 580;background-color: #2980B9">
             <tr>
-              <td>
+              <td class = "panel"  width = "580"style = "background-color: #2980B9;">
                 <table class="row">
                   <tr>
                     <td class="wrapper">
-                      <table class="eight columns">
+                      <table class="six columns">
                         <tr>
                           <td>
                             <table>
@@ -735,48 +747,41 @@ body.outlook p {
                                 </td>
                               </tr>
                             </table>
-                            <table class="button">
-                              <tr>
-                                <td class = "text-pad">
-                                  <a href="#">Sign Up</a>
-                                </td>
-                              </tr>
-                            </table>
                           </td>
                           <td class="expander"></td>
                         </tr>
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="four columns" heigth= "100%" style = "float:none!important;">
+                      <table class="six columns" height= "100%" style = "float:none!important;" width = "28">
                         <tr>
                           <td class="strongSide center">
                             <center>
                               <table>
                                 <tr>
-                                  <td align="center">
-                                    <img src="http://i.imgur.com/YkLJy4j.png" style = "border-radius: 2em; width= 100%;" class = "imgIE" height="75" width="200">
+                                  <td align="center" width="290" style = "padding-top: 40px;">
+                                    <img src="http://i.imgur.com/ESsvSDU.png" style = "width= 100%;" class = "imgIE" height="100" width="290">
                                   </td>
                                 </tr>
                               </table>
                               <table>
                                 <tr>
-                                  <td align="center">
-                                    <img src="http://i.imgur.com/QXrZtq9.png" style = "border-radius: 2em; width= 100%;" class = "imgIE" height="75" width="200">
+                                  <td align="center" width="290">
+                                    <img src="http://i.imgur.com/B5sSZPU.png" style = "width= 100%;" class = "imgIE" height="100" width="290">
                                   </td>
                                 </tr>
                               </table>
                               <table>
                                 <tr>
-                                  <td align="center">
-                                    <img src="http://i.imgur.com/zgIPFgE.png" style = " border-radius: 2em;width= 580px;" class = "imgIE" height="75" width="200">
+                                  <td align="center" width="290">
+                                    <img src="http://i.imgur.com/HJ8MjBs.png" style = "width= 290px;" class = "imgIE" height="100" width="290">
                                   </td>
                                 </tr>
                               </table> 
                               <table>
                                 <tr>
-                                  <td align="center">
-                                    <img src="http://i.imgur.com/WrqRTGX.png" style = "border-radius: 2em; width= 100%;" class = "imgIE" height="75" width="200">
+                                  <td align="center" width="290">
+                                    <img src="http://i.imgur.com/Yy2r33F.png" style = "width= 290px;" class = "imgIE" height="100" width="290">
                                   </td>
                                 </tr>
                               </table>
